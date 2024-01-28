@@ -1,6 +1,11 @@
+import Cofee from './cofee';
+
 function App() {
   return (
-    <h1>Hello, world!</h1>
+    <>
+    <Cofee />
+  
+    </>
   );
 }
 export default App;
