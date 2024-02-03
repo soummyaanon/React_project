@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import './App.css';
 
@@ -18,15 +17,13 @@ function App() {
   }
 
   return (
-    <>
+    <div className="App">
       <h1>My First React Project</h1>
       <h2> Counter Value: {counter}</h2>
-      <button onClick={addValue}>Add Value{counter} </button>
-      <br />
-      <button onClick={removevalue}>Subtract Value {counter}</button>
-      <br/>
-      <footer> Foooter {counter}</footer>
-    </>
+      <button onClick={addValue}>Add Value</button>
+      <button onClick={removevalue}>Subtract Value</button>
+      <footer> Footer {counter}</footer>
+    </div>
   );
 }
 
