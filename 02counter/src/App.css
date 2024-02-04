@@ -33,6 +33,8 @@ button {
 
 button:hover {
   background-color: #0056b3;
+  transform: scale(1.1);
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 footer {
