@@ -1,0 +1,59 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right, #d7a946, #8e5eff);
+}
+
+.container {
+    text-align: center;
+    background: rgb(3, 2, 2);
+    padding: 2em;
+    border-radius: 1em;
+    color: white; /* Add this to make the text inside the container visible */
+}
+
+.password-display {
+    display: flex;
+    justify-content: center; 
+    gap: 1em;
+    margin-bottom: 1em;
+    background-color: #4b4d5147; /* light gray background */
+    padding: 0.5em; /* some padding */
+    border-radius: 0.5em; /* rounded corners */
+}
+
+.password-input {
+    flex-grow: 1;
+    color: #333; /* dark gray text */
+    background-color: #ccc3c3bb; /* white background */
+    border: none; /* remove default border */
+    padding: 0.5em; /* some padding */
+    border-radius: 0.5em;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: #06060ac3; /* light gray background */
+    color: #060f0f; /* dark gray text */
+    padding: 1em; /* some padding */
+    border-radius: 0.5em; /* rounded corners */
+}
+
+.setting {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    background-color: #e0e0e0; /* slightly darker gray background */
+    padding: 0.5em; /* some padding */
+    border-radius: 0.5em; /* rounded corners */
+}
+
+.copy-button {
+    background-color: rgb(225, 130, 47); 
+    color: black; 
+}
