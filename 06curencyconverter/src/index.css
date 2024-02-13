@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.swapButton {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.swapButton:hover {
+    background-color: #007BFF;
+}
+
+.submitButton {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.submitButton:hover {
+    background-color: #007BFF;
+}
+/* index.css */
+.submitButton {
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .submitButton:hover {
+    background-color: #007BFF;
+  }
+  
+  .submitButton:active {
+    transform: scale(0.95);
+  }

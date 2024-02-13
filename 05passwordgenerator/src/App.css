@@ -12,7 +12,7 @@
     background: rgb(3, 2, 2);
     padding: 2em;
     border-radius: 1em;
-    color: white; /* Add this to make the text inside the container visible */
+    color: rgb(221, 212, 212); /* Add this to make the text inside the container visible */
 }
 
 .password-display {
@@ -27,8 +27,8 @@
 
 .password-input {
     flex-grow: 1;
-    color: #333; /* dark gray text */
-    background-color: #ccc3c3bb; /* white background */
+    color: #0b0909; /* dark gray text */
+    background-color: #e6dcdc; /* white background */
     border: none; /* remove default border */
     padding: 0.5em; /* some padding */
     border-radius: 0.5em;
@@ -51,6 +51,21 @@
     background-color: #e0e0e0; /* slightly darker gray background */
     padding: 0.5em; /* some padding */
     border-radius: 0.5em; /* rounded corners */
+}
+.length-input {
+    width: 50% !important;
+    padding: 0.5em !important;
+    border: none !important;
+    border-radius: 0.5em !important;
+    background: linear-gradient(90deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%) !important;
+    color: #0b0909 !important;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1) !important;
+    transition: all 0.3s ease 0s !important;
+}
+
+.length-input:hover {
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4) !important;
+    transform: translateY(-7px) !important;
 }
 
 .copy-button {

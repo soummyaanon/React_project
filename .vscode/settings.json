@@ -1,3 +1,4 @@
 {
-    "workbench.startupEditor": "welcomePage"
+    "workbench.startupEditor": "welcomePage",
+    "git.ignoreLimitWarning": true
 }
